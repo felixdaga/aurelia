@@ -20,7 +20,7 @@ const Hero = () => {
     <motion.section
       ref={ref}
       id="home"
-      className="min-h-screen md:min-h-screen h-[60vh] md:h-auto flex items-center justify-center relative overflow-hidden"
+      className="h-[60vh] md:min-h-screen flex items-center justify-center relative overflow-hidden"
     >
       {/* Your Aurelia Logo Image as Background */}
       <motion.div className="absolute inset-0 z-0" style={{ scale }}>
@@ -29,7 +29,7 @@ const Hero = () => {
             src="/images/aurelia-background-HD-new.jpeg"
             alt="Aurelia Background"
             fill
-            className="object-cover object-top md:object-center"
+            className="object-cover object-center w-full h-full"
             priority
           />
         </div>

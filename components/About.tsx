@@ -31,7 +31,7 @@ const About = () => {
     <section
       ref={ref}
       id="about"
-      className="relative py-32 min-h-[90vh] bg-white overflow-hidden flex items-center"
+      className="relative pt-0 pb-32 min-h-[90vh] bg-white overflow-hidden flex items-center"
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -48,13 +48,13 @@ const About = () => {
         <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-8 md:px-10 lg:px-12">
+      <div className="relative z-10 max-w-5xl mx-auto px-8 md:px-10 lg:px-12 mt-16 md:mt-0">
         <motion.div className="text-center" style={{ opacity: textOpacity }}>
-          <h2 className="text-5xl lg:text-6xl font-light text-white mb-12">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-light text-white mb-8 md:mb-12">
             About Aurelia
           </h2>
 
-          <div className="space-y-8 text-white/90 text-xl md:text-2xl leading-relaxed">
+          <div className="space-y-6 md:space-y-8 text-white/90 text-lg md:text-xl lg:text-2xl leading-relaxed">
             <p>
               Aurelia crafts architectural-inspired soft furnishings and
               lifestyle pieces, offering relaxed luxury and an "effortless sense
