@@ -29,7 +29,7 @@ const Hero = () => {
             src="/images/aurelia-background-HD-new.jpeg"
             alt="Aurelia Background"
             fill
-            className="object-cover"
+            className="object-contain md:object-cover"
             priority
           />
         </div>
