@@ -14,7 +14,7 @@ const ResidentArtists = () => {
       story:
         "Elena transforms raw materials into poetic forms that blur the line between furniture and art. Her architectural background infuses each piece with structural integrity while maintaining an organic, flowing aesthetic.",
       signature: "Flowing Stones Collection",
-      image: "/images/artist_elena.jpg",
+      image: "/images/artist_elena.JPG",
       artwork: "/images/about-background.jpeg",
     },
   ];
